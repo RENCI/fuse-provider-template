@@ -8,7 +8,7 @@ from typing import List
 
 from bson.json_util import dumps, loads
 
-from lib.Objects import Passports, ProviderExampleObject
+from fuse.models.Objects import Passports, ProviderExampleObject
 
 app = FastAPI()
 
