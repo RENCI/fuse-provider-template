@@ -1,8 +1,19 @@
 {
-  "piid": "fuse-appliance-template",
-  "pluginDependencies": [],
-  "pluginType": "p",
-  "pluginTypeTitle": "Provider",
+  "_comment": "-------End of GA4GH requirements----- (ignore this line)",
+  "contactUrl": "mailto:krobasky@gmail.com",
+  "createdAt": "xxx",
+  "description": "Serves data according to DRS specification",
+  "documentationUrl": "https://github.com/krobasky/fuse-provider-template",
+  "environment": "test",
+  "id": "fuse-provider-template",
+  "name": "Example of a FUSE data provider",
+  "organization": {
+    "name": "RENCI",
+    "url": "https://renci.org"
+  },
+  "serviceDependencies": [],
+  "serviceType": "p",
+  "serviceTypeTitle": "Provider",
   "settingsDefaults": {
     "objectVariables": [
       {
@@ -20,7 +31,7 @@
         "value": "SDY61-9"
       }
     ],
-    "pluginParameters": [
+    "serviceParameters": [
       {
         "description": "The URL, minus the protocol.",
         "id": "FUSE:baseURL",
@@ -37,5 +48,12 @@
       }
     ]
   },
-  "title": "Generic server type appliance"
+  "title": "Generic server type appliance",
+  "type": {
+    "artifact": "drs",
+    "group": "org.ga4gh",
+    "version": "1.0.0"
+  },
+  "updatedAt": "xxx",
+  "version": "1.0.0"
 }

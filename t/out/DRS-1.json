@@ -1,7 +1,7 @@
 {
   "_comment": "-------End of GA4GH requirements----- (ignore this line)",
   "contactUrl": "mailto:krobasky@gmail.com",
-  "createdAt": "2022-02-07T12:00:00Z",
+  "createdAt": "xxx",
   "description": "Serves data according to DRS specification",
   "documentationUrl": "https://github.com/krobasky/fuse-provider-template",
   "environment": "test",
@@ -54,6 +54,6 @@
     "group": "org.ga4gh",
     "version": "1.0.0"
   },
-  "updatedAt": "2022-02-07T12:00:00Z",
+  "updatedAt": "xxx",
   "version": "1.0.0"
 }
